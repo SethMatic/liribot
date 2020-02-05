@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 
 var action = process.argv[2];
 var value = process.argv[3];
