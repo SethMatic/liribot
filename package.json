@@ -2,10 +2,14 @@
   "name": "liribot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "liri.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1"},
+    "dependencies": {
+      "node-spotify-api": "^1.0.5",
+      "request": "^2.81.0",
+      "spotify": "^0.3.0"},
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SethMatic/liribot.git"
